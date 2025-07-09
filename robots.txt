@@ -1,0 +1,15 @@
+# robots.txt for https://muneeb-shafique.github.io/Portfolio
+# This file tells search engines how to crawl and index your site
+
+User-agent: *
+Allow: /
+
+# Optional cleanup (GitHub Pages extras you might not want indexed)
+Disallow: /README.md
+Disallow: /LICENSE
+Disallow: /.git/
+Disallow: /node_modules/
+Disallow: /package.json
+Disallow: /package-lock.json
+
+Sitemap: https://muneeb-shafique.github.io/Portfolio/sitemap.xml
